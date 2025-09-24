@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+body{
+    background: rgba(255, 192, 203, 0.306);
+}
 .header{
     background: lightpink;
     padding: 15px 39px;
@@ -26,7 +29,6 @@
     color: white;
 }
 .container{
-    display: grid;
     gap: 20px;
     padding: 40px;
     display: flex;
@@ -34,7 +36,8 @@
     justify-content: center;
     flex-direction: column;
 }
-.card{
+.card,
+.card1{
     width: 180px;
     height: 150px;
     background: lightpink;
@@ -45,13 +48,15 @@
     transition: transform 0.3s ease-in;
     cursor: pointer;
 }
-.card img{
+.card img,
+.card1 img{
     width: 80px;
     height: 80px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
-.card p{
+.card p,
+.card1 p{
     font-size: large;
     font-weight: 700;
 }
