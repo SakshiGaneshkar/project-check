@@ -25,3 +25,29 @@
     border: none;
     color: white;
 }
+.container{
+    display: grid;
+    gap: 20px;
+    padding: 40px;
+}
+.card{
+    width: 180px;
+    height: 150px;
+    background: lightpink;
+    border-radius: 6px;
+    text-align: center;
+    padding: 25px 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in;
+    cursor: pointer;
+}
+.card img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.card p{
+    font-size: large;
+    font-weight: 700;
+}
