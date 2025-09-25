@@ -34,10 +34,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+ 
 }
 .card,
-.card1{
+.card1,
+.card2{
     width: 180px;
     height: 150px;
     background: lightpink;
@@ -49,17 +50,17 @@ body{
     cursor: pointer;
 }
 .card img,
-.card1 img{
+.card1 img,
+.card2 img{
     width: 80px;
     height: 80px;
     margin-bottom: 10px;
     border-radius: 5px;
+    box-shadow: lightgray;
 }
 .card p,
-.card1 p{
+.card1 p,
+.card2 p{
     font-size: large;
     font-weight: 700;
-}
-.card2{
-    background: lightskyblue;
 }
